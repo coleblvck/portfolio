@@ -1,0 +1,38 @@
+import "./projects-globals.css";
+import projects from "@/app/config/projects";
+import Image from "next/image";
+
+export default function Projects() {
+    return (
+        <div className="projects">
+            <div id="projects-header">
+                <h2>PROJECTS</h2>
+                <p>Some of my projects and contributions.</p>
+            </div>
+            <div className="projects-display">
+
+                {projects.filter((project) => project.title != "").map((project) => (
+                    <div key={project.title} className="project-grid-item">
+                        <h3>{project.title}</h3>
+                        <p>{project.content}</p>
+                        {project.stack.length !==0 ? (
+                            <div className="project-stack">
+                                {project.stack.map((stackItem) => (
+                                    <Image
+                                    key={stackItem.name}
+                                    className="project-stack-icon"
+                                    alt={stackItem.name}
+                                    src={stackItem.icon}
+                                    width={36}
+                                    height={36}
+                                    />
+                                ))}
+                            </div>
+                        ) : <></>}
+                    </div>
+                ))}
+
+            </div>
+        </div>
+    )
+}

@@ -1,0 +1,127 @@
+#tech-and-workspaces {
+    grid-area: tech-and-workspaces;
+    display: grid;
+    grid-template-areas:
+        "tech"
+        "workspaces";
+    grid-gap: var(--general-spacing);
+    align-content: start;
+}
+
+@media (min-width: 600px) {
+    #tech-and-workspaces {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "tech  workspaces";
+    }
+}
+
+@media (min-width: 1000px) {
+    #tech-and-workspaces {
+        grid-template-areas:
+            "tech"
+            "workspaces";
+    }
+}
+
+#tech {
+    grid-area: tech;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--general-spacing);
+}
+
+#tech > h2 {
+    border: none;
+    color: var(--color3);
+}
+
+#tech-selection {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#tech-selection > div {
+    font-size: 12px;
+    margin-right: 20px;
+    background-color: rgb(14, 14, 14);
+    color: var(--color3);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px 5px rgb(20, 20, 20), 3px 3px 5px 5px black;
+    cursor: pointer;
+}
+
+#tech-selection > div:hover {
+    transform: scale(0.95);
+    color: var(--color3);
+    box-shadow: 0px 0px 5px 5px rgb(20, 20, 20), 3px 3px 5px 5px black, inset 0px 0px 2px 2px rgb(7, 7, 7);
+}
+
+#tech-selection > div:active {
+    transform: scale(0.9);
+    color: var(--color3);
+    box-shadow: 0px 0px 5px 5px rgb(20, 20, 20), 3px 3px 5px 5px black, inset 0px 0px 5px 5px rgb(7, 7, 7);
+}
+
+#tech-icons {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(50px, 1fr));
+    grid-gap: var(--general-spacing);
+}
+
+.tech-icon {
+    width: 48px;
+    transition: transform .5s;
+}
+
+.tech-icon:hover {
+    transform: scale(0.9);
+}
+
+#workspaces {
+    grid-area: workspaces;
+    display: flex;
+    gap: var(--general-spacing);
+    flex-direction: column;
+    align-items: center;
+}
+
+#workspaces > h2 {
+    color: var(--color3);
+    border: none;
+}
+
+#workspace-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.workspace {
+    background-color: rgb(14, 14, 14);
+    color: var(--color3);
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 5px 5px rgb(20, 20, 20), 3px 3px 5px 5px black;
+}
+
+.workspace:hover {
+    transform: scale(0.98);
+}
+
+.workspace:active {
+    transform: scale(0.96);
+    color: var(--color3);
+}
+
+.horizontal-line {
+    width: 80%;
+}

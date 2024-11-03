@@ -1,0 +1,61 @@
+#intro {
+    margin-bottom: var(--general-spacing);
+    display: grid;
+    gap: var(--general-spacing);
+    grid-template-columns: 2fr 1px 3fr;
+    grid-template-areas:
+        "Avatar Vertical-line Description";
+}
+
+.vertical-line {
+    grid-area: Vertical-line;
+    color: var(--color1);
+    background-color: var(--color1);
+    width: 3px;
+    height: 90%;
+    align-self: center;
+  }
+
+#intro-avatar-div {
+    grid-area: Avatar;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-avatar {
+    width: 100%;
+}
+
+#intro-description {
+    grid-area: Description;
+    color: var(--color0);
+    padding: var(--general-padding);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#intro-description-header {
+    color: var(--color0);
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 500px) {
+    #intro {
+        margin-bottom: var(--general-spacing);
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "Avatar"
+            "Description";
+    }
+
+    .vertical-line {
+        display: none;
+    }
+}

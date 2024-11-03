@@ -1,0 +1,11 @@
+#contributions {
+    grid-area: contributions;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contributions > h2 {
+    border: none;
+    color: var(--colour-bg);
+}
