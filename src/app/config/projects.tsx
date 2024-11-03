@@ -10,13 +10,13 @@ const projects = [
     {
         title: "Pip Compass",
         content: <><a className="project-link" href="https://pipcompass.artatura.com" target="_blank">A currency pair live analysis tool</a> built with Python. This application uses yfinance for real-time currency pair data. It features an interactive interface with Streamlit and employs Pandas and NumPy for data manipulation. Dynamic visualizations, including 3D scatter plots, effectively showcase both live and historical data.</>,
-        previewImage: "",
+        previewImage: "/assets/project-previews/pip-compass.png",
         stack: [stack.python, stack.vscode, stack.git],
     },
     {
         title: "AntiiQ",
         content: <><a className="project-link" href="https://github.com/coleblvck/AntiiQ" target="_blank">AntiiQ is an open-source music player</a> developed using Flutter, designed to efficiently manage large music libraries without compromising performance while offering extensive user customization options. <a className="project-link" href="https://apt.izzysoft.de/fdroid/index/apk/com.coleblvck.antiiq" target="_blank">Get it from the IzzyonDroid F-Droid repo.</a></>,
-        previewImage: "",
+        previewImage: "/assets/project-previews/antiiq.png",
         stack: [stack.dart, stack.flutter, stack.vscode, stack.android, stack.git],
     },
     {
@@ -31,13 +31,13 @@ const projects = [
         <br />
         <br />
         <a className="project-link" href="https://vimeo.com/1020402007" target="_blank">Unprofessional and laggy video preview...</a></>,
-        previewImage: "",
+        previewImage: "/assets/project-previews/float.png",
         stack: [stack.godot, stack.vscode, stack.git],
     },
     {
         title: "Shelf/Shelf Slim",
         content: <><a className="project-link" href="https://github.com/coleblvck/shelf" target="_blank">A straightforward Android app launcher</a> that utilizes intuitive gestures and includes productivity features, allowing for subtle customization by users. This project has two variants: one developed using Flutter and the other utilizing <a className="project-link" href="https://github.com/coleblvck/Shelf-Slim" target="_blank">Kotlin with Jetpack Compose</a>.</>,
-        previewImage: "",
+        previewImage: "/assets/project-previews/shelf.png",
         stack: [stack.dart, stack.flutter, stack.kotlin, stack.android, stack.androidStudio, stack.git],
     },
     {
@@ -49,13 +49,13 @@ const projects = [
     {
         title: "Paragraph for Android",
         content: <><a className="project-link" href="https://github.com/coleblvck/paragraph-for-android" target="_blank">Android app for Paragraph</a>, designed and developed with Flutter.</>,
-        previewImage: "",
+        previewImage: "/assets/project-previews/paragraph-android.png",
         stack: [stack.dart, stack.flutter],
     },
     {
         title: "Tribute (CSS Timelines)",
         content: <>A <a className="project-link" href="https://codepen.io/coleblvck/full/vYLKbLV" target="_blank">nice showcase of vertical CSS timelines</a>, designed with accessibility in mind.</>,
-        previewImage: "",
+        previewImage: "/assets/project-previews/tribute-timelines.png",
         stack: [stack.html, stack.css, stack.javascript],
     },
     {

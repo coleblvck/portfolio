@@ -13,18 +13,33 @@ export default function Projects() {
 
                 {projects.filter((project) => project.title != "").map((project) => (
                     <div key={project.title} className="project-grid-item">
+                        {project.previewImage !== ""
+                            ? (
+                                <div
+                                    key={project.title + "-previewImage"}
+                                    className="project-preview-image"
+                                >
+                                    <Image
+                                        className="project-preview-image-bg"
+                                        alt={project.title + " image"}
+                                        src={project.previewImage}
+                                        fill
+                                    />
+                                </div>
+                            ) : (<></>)}
                         <h3>{project.title}</h3>
                         <p>{project.content}</p>
-                        {project.stack.length !==0 ? (
+                        {project.stack.length !== 0 ? (
                             <div className="project-stack">
+                                <h3>Toolset:</h3>
                                 {project.stack.map((stackItem) => (
                                     <Image
-                                    key={stackItem.name}
-                                    className="project-stack-icon"
-                                    alt={stackItem.name}
-                                    src={stackItem.icon}
-                                    width={36}
-                                    height={36}
+                                        key={stackItem.name}
+                                        className="project-stack-icon"
+                                        alt={stackItem.name}
+                                        src={stackItem.icon}
+                                        width={32}
+                                        height={32}
                                     />
                                 ))}
                             </div>
