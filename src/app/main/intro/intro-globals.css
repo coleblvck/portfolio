@@ -8,11 +8,12 @@
 }
 
 .vertical-line {
+    transform: rotate(-2deg);
     grid-area: Vertical-line;
     color: var(--color1);
     background-color: var(--color1);
     width: 3px;
-    height: 90%;
+    height: 100%;
     align-self: center;
   }
 
@@ -52,10 +53,13 @@
         grid-template-columns: 1fr;
         grid-template-areas:
             "Avatar"
+            "Vertical-line"
             "Description";
     }
 
     .vertical-line {
-        display: none;
+        width: 100%;
+        height: 3px;
+        align-self: center;
     }
 }

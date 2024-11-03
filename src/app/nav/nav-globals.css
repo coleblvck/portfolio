@@ -29,15 +29,17 @@
 }
 
 #top-nav-link-span {
+  display: flex;
+  gap: 30px;
   margin: 0;
   padding: 0;
 }
 
-#top-nav-link-span>a {
+#top-nav-link-span > a {
   color: var(--color3);
-  font-size: 18px;
+  font-size: 20px;
   padding: 0;
-  margin: 0 0 0 var(--general-spacing);
+  margin: 0;
 }
 
 #title {

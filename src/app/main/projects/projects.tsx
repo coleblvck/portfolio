@@ -7,12 +7,12 @@ export default function Projects() {
         <div className="projects">
             <div id="projects-header">
                 <h2>PROJECTS</h2>
-                <p>Some of my projects and contributions.</p>
+                <p>Highlights from My Creative Journey</p>
             </div>
             <div className="projects-display">
 
                 {projects.filter((project) => project.title != "").map((project) => (
-                    <div key={project.title} className="project-grid-item">
+                    <div key={project.title} className={`${project.designDirection}-project-grid-item project-grid-item`}>
                         {project.previewImage !== ""
                             ? (
                                 <div

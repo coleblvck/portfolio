@@ -124,4 +124,7 @@
 
 .horizontal-line {
     width: 80%;
+    height: 2px;
+    color: var(--color3);
+    background-color: var(--color3);
 }

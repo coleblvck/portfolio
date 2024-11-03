@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./intro-global.css"
+import "./intro-globals.css"
 import { intro } from "@/app/config/about";
 
 export default function Intro() {
