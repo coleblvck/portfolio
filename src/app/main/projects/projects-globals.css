@@ -12,7 +12,7 @@
 }
 
 #projects-header > p {
-    color: var(--color0);
+    color: var(--color4);
 }
 
 #projects-header {
@@ -103,4 +103,5 @@
 
 a.project-link {
     color: var(--color4);
+    text-decoration: underline;
 }
