@@ -14,7 +14,7 @@
 }
 
 .scrolled-nav {
-  background-color: var(--color1);
+  background-color: var(--color2);
   color: var(--color3);
   display: flex;
   position: -webkit-sticky;

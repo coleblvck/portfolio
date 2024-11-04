@@ -5,7 +5,7 @@ import Footer from "./footer/footer";
 
 export const metadata: Metadata = {
   title: "Cole's Code Playground",
-  description: "Software Developer",
+  description: "Software Cheffing",
 };
 
 export default function RootLayout({

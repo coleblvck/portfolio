@@ -100,3 +100,7 @@
 .project-stack-icon:hover {
     transform: scale(0.9);
 }
+
+p > a {
+    font-weight: 800;
+}

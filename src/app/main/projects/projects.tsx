@@ -21,7 +21,7 @@ export default function Projects() {
                                 >
                                     <Image
                                         className="project-preview-image-bg"
-                                        alt={project.title + " image"}
+                                        alt={project.title + " Preview Image"}
                                         src={project.previewImage}
                                         fill
                                     />

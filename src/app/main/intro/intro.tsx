@@ -9,7 +9,7 @@ export default function Intro() {
                 <Image
                     id="intro-avatar"
                     src={intro.avatar}
-                    alt="Next.js logo"
+                    alt="Cole's Avatar"
                     width={0}
                     height={0}
                     sizes="100vw"
