@@ -31,7 +31,7 @@ export default function Projects() {
                         <p>{project.content}</p>
                         {project.stack.length !== 0 ? (
                             <div className="project-stack">
-                                <h3>Toolset:</h3>
+                                <h3>Kit:</h3>
                                 {project.stack.map((stackItem) => (
                                     <Image
                                         key={stackItem.name}

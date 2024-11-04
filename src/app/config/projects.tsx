@@ -68,8 +68,8 @@ const projects = [
     },
     {
         title: "JavaScript Drum Kit",
-        content: <><a className="project-link" href="https://github.com/coleblvck/Javascript-Drum-Kit" target="_blank">A Javascript desktop drum kit.</a></>,
-        previewImage: "",
+        content: <><a className="project-link" href="https://coleblvck.github.io/Javascript-Drum-Kit" target="_blank">A Javascript desktop drum kit.</a></>,
+        previewImage: "/assets/project-previews/javascript-drum-kit.png",
         stack: [stack.html, stack.css, stack.javascript],
         designDirection: "straight",
     },
