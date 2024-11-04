@@ -12,7 +12,7 @@
 }
 
 #projects-header > p {
-    color: var(--color1);
+    color: var(--color0);
 }
 
 #projects-header {
@@ -101,6 +101,6 @@
     transform: scale(0.9);
 }
 
-p > a {
-    font-weight: 800;
+a.project-link {
+    color: var(--color4);
 }

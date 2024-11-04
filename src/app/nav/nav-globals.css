@@ -14,7 +14,7 @@
 }
 
 .scrolled-nav {
-  background-color: var(--color2);
+  background-color: var(--color1);
   color: var(--color3);
   display: flex;
   position: -webkit-sticky;
@@ -30,7 +30,7 @@
 
 #top-nav-link-span {
   display: flex;
-  gap: 30px;
+  gap: 20px;
   margin: 0;
   padding: 0;
 }
@@ -45,5 +45,5 @@
 #title {
   color: var(--colour-bg);
   border: none;
-  font-size: 16px;
+  font-size: 18px;
 }
