@@ -1,3 +1,18 @@
+#top-nav {
+  background-color: var(--color0);
+  background: linear-gradient(to right, var(--color2), var(--color4));
+  color: var(--color0);
+  display: flex;
+  z-index: 99999;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px 10px 20px;
+  margin: var(--general-spacing);
+  border-radius: var(--general-radius);
+  transform-origin: 25% 50%;
+  transform: rotate(0.8deg);
+}
+
 .unscrolled-nav {
   background-color: var(--color0);
   background: linear-gradient(to right, var(--color2), var(--color4));
@@ -6,13 +21,13 @@
   position: -webkit-sticky;
   position: sticky;
   z-index: 99999;
-  top: 0px;
+  top: var(--general-spacing);
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px 10px 20px;
   margin: var(--general-spacing);
   border-radius: var(--general-radius);
-  transition: 0.3s ease;
+  transition: 0.1s ease;
   transform-origin: 25% 50%;
   transform: rotate(0.8deg);
 }
@@ -31,7 +46,7 @@
   padding: 10px 20px 10px 20px;
   margin: 0px;
   border-radius: 0px;
-  transition: 0.3s ease;
+  transition: 0.1s ease;
 }
 
 #top-nav-link-span {
