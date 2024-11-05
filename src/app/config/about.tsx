@@ -1,10 +1,12 @@
-export const intro = {
+export const info = {
+    name: "COLE ADEDAYO",
     avatar: "/avatar.png",
     descriptionHeader: "Hi!",
     descriptionBody: "I’m Cole, a software developer who thrives on challenges and actively researches new technologies.\
                     Python is my go-to language, and I’m passionate about building innovative solutions that enhance user\
                     experiences.\
                     Welcome to my playground, where creativity and coding collide.",
+    footerLink: "https://dayo.codes",
 };
 
 export const socials = [

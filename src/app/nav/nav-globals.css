@@ -1,6 +1,7 @@
 .unscrolled-nav {
-  background-color: var(--color-0-1);
-  color: var(--color3);
+  background-color: var(--color0);
+  background: linear-gradient(to right, var(--color2), var(--color4));
+  color: var(--color0);
   display: flex;
   position: -webkit-sticky;
   position: sticky;
@@ -10,11 +11,15 @@
   justify-content: space-between;
   padding: 10px 20px 10px 20px;
   margin: var(--general-spacing);
-  border-radius: 10px;
+  border-radius: var(--general-radius);
+  transition: 0.3s ease;
+  transform-origin: 25% 50%;
+  transform: rotate(0.8deg);
 }
 
 .scrolled-nav {
   background-color: var(--color1);
+  background: linear-gradient(to right, var(--color1), var(--color0));
   color: var(--color3);
   display: flex;
   position: -webkit-sticky;
@@ -26,6 +31,7 @@
   padding: 10px 20px 10px 20px;
   margin: 0px;
   border-radius: 0px;
+  transition: 0.3s ease;
 }
 
 #top-nav-link-span {

@@ -5,7 +5,7 @@ footer {
     text-align: center;
     padding: 10px;
     margin: var(--general-spacing);
-    border-radius: 10px;
+    border-radius: var(--general-radius);
 }
 
 footer > a {

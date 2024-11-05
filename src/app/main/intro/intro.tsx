@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./intro-globals.css"
-import { intro } from "@/app/config/about";
+import { info } from "@/app/config/about";
 
 export default function Intro() {
     return (
@@ -8,7 +8,7 @@ export default function Intro() {
             <div id="intro-avatar-div">
                 <Image
                     id="intro-avatar"
-                    src={intro.avatar}
+                    src={info.avatar}
                     alt="Cole's Avatar"
                     width={0}
                     height={0}
@@ -19,8 +19,8 @@ export default function Intro() {
             </div>
             <hr className="vertical-line" />
             <div id="intro-description">
-                <h2 id="intro-description-header">{intro.descriptionHeader}</h2>
-                <p id="intro-description-body">{intro.descriptionBody}</p>
+                <h2 id="intro-description-header">{info.descriptionHeader}</h2>
+                <p id="intro-description-body">{info.descriptionBody}</p>
             </div>
         </div>
     )

@@ -3,11 +3,10 @@
   --color-fg: var(--color0);
   --color0: #000000;
   --color1: #557C45;
-  --color-0-1: var(--color0);
   --color2: #D2691E;
   --color3: #faebd7;
   --color4: #8B0000;
-  --general-radius: 10px;
+  --general-radius: 8px;
   --general-spacing: 1rem;
   --general-padding: 30px;
 }
@@ -18,11 +17,10 @@
     --color-fg: var(--color0);
     --color0: #000000;
     --color1: #557C45;
-    --color-0-1: var(--color0);
     --color2: #D2691E;
     --color3: #faebd7;
     --color4: #8B0000;
-    --general-radius: 10px;
+    --general-radius: 8px;
     --general-spacing: 1rem;
     --general-padding: 30px;
   }

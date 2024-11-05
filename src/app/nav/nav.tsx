@@ -2,6 +2,7 @@
 import { socials } from "../config/about"
 import "./nav-globals.css";
 import { useRef, useEffect } from "react";
+import { info } from "../config/about";
 
 export default function Nav() {
 
@@ -28,7 +29,7 @@ export default function Nav() {
     
     return (
         <div ref={ navRef } className="unscrolled-nav">
-            <h1 id="title">&lt;COLE ADEDAYO/&gt;</h1>
+            <h1 id="title">&lt;{info.name}/&gt;</h1>
             <div>
                 <span id="top-nav-link-span">
                     {socials.map((social) => (

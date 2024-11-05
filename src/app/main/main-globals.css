@@ -6,9 +6,8 @@ main {
     display: grid;
     grid-template-areas:
         "tech-and-workspaces"
-        "projects"
-        "contributions";
-    grid-gap: var(--general-spacing);
+        "projects";
+    gap: var(--general-spacing);
     justify-content: center;
 }
 
@@ -16,23 +15,24 @@ main {
     .main-content {
         grid-template-columns: 3fr 1fr;
         grid-template-areas:
-            "tech-and-workspaces  contributions"
+            "tech-and-workspaces tech-and-workspaces"
             "projects     projects";
     }
 }
 
 @media (min-width: 1000px) {
     .main-content {
-        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-columns: 1fr 4fr;
         grid-template-areas:
-            "tech-and-workspaces projects  contributions";
+            "tech-and-workspaces projects";
     }
 }
 
 .grid-item {
     background-color: var(--color0);
+    background: linear-gradient(var(--color0), var(--color3));
     color: var(--color3);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: var(--general-radius);
     transition: transform .25s, color 1s, background-color 1s;
   }
