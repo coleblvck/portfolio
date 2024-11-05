@@ -6,7 +6,7 @@
   position: -webkit-sticky;
   position: sticky;
   z-index: 99999;
-  top: var(--general-spacing);
+  top: 0px;
   align-items: center;
   justify-content: space-between;
   padding: 10px 20px 10px 20px;

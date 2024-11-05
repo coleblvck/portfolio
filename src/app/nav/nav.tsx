@@ -5,17 +5,14 @@ import { useRef, useEffect } from "react";
 import { info } from "../config/about";
 
 export default function Nav() {
-
     const navRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const handleScroll = () => {
             if (navRef.current) {
-                if (window.scrollY > 20) {
-                    navRef.current.className = "scrolled-nav";
-                } else {
-                    navRef.current.className = "unscrolled-nav";
-                }
+                // Use a threshold to avoid flickering
+                const isScrolled = window.scrollY > 20;
+                navRef.current.className = isScrolled ? "scrolled-nav" : "unscrolled-nav";
             }
         };
 
