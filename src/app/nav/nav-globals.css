@@ -28,7 +28,6 @@
   padding: 10px 20px 10px 20px;
   margin: var(--general-spacing);
   border-radius: var(--general-radius);
-  transition: 0.1s ease;
   transform-origin: 25% 50%;
   transform: rotate(0.8deg);
   box-shadow: var(--nav-shadow);
@@ -48,7 +47,6 @@
   padding: 10px 20px 10px 20px;
   margin: 0px;
   border-radius: 0px;
-  transition: 0.1s ease;
 }
 
 #top-nav-link-span {

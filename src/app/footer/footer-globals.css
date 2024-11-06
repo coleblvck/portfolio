@@ -1,12 +1,16 @@
 footer {
-    background-color: var(--color0);
-    color: var(--color3);
-    font-size: 16px;
-    text-align: center;
-    padding: 10px;
-    margin: var(--general-spacing);
-    border-radius: var(--general-radius);
-    box-shadow: var(--general-box-shadow);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--general-spacing);
+  background-color: var(--color0);
+  color: var(--color3);
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: var(--general-spacing);
+  border-radius: var(--general-radius);
+  box-shadow: var(--general-box-shadow);
 }
 
 .footer-link {
