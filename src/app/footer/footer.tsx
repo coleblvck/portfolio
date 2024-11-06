@@ -3,7 +3,10 @@ import { info } from "../config/about";
 
 export default function Footer() {
     return (
-        <footer>&copy; {new Date().getFullYear()}, <a href={info.footerLink} target="_blank">{info.name}</a>.    
+        <footer>
+            <span>&copy; {new Date().getFullYear()}, <a className="footer-link" href={info.footerLink} target="_blank">{info.name}</a>.</span>
+            <span> Designed by <a className="footer-link" id="designer-attribution" href="https://dayo.codes" target="_blank">dayo.codes</a>.
+            </span>    
         </footer>
     )
 }

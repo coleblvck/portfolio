@@ -10,8 +10,8 @@
 .vertical-line {
     transform: rotate(-2deg);
     grid-area: Vertical-line;
-    color: var(--color1);
     background-color: var(--color1);
+    background: linear-gradient(var(--color4), var(--color1));
     width: 3px;
     height: 100%;
     align-self: center;
@@ -61,5 +61,6 @@
         width: 100%;
         height: 3px;
         align-self: center;
+        background: linear-gradient(to right, var(--color1), var(--color0));
     }
 }

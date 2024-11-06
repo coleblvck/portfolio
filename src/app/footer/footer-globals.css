@@ -6,9 +6,13 @@ footer {
     padding: 10px;
     margin: var(--general-spacing);
     border-radius: var(--general-radius);
+    box-shadow: var(--general-box-shadow);
 }
 
-footer > a {
-  text-decoration: line-through solid var(--color2) 2px;
+.footer-link {
   color: var(--color2);
+}
+
+#designer-attribution {
+  text-decoration: line-through solid var(--color2) 2px;
 }
