@@ -31,7 +31,7 @@
   transition: 0.1s ease;
   transform-origin: 25% 50%;
   transform: rotate(0.8deg);
-  box-shadow: var(--general-box-shadow);
+  box-shadow: var(--nav-shadow);
 }
 
 .scrolled-nav {

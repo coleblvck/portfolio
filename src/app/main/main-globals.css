@@ -30,7 +30,7 @@ main {
 
 .grid-item {
     background-color: var(--color0);
-    background: linear-gradient(var(--color1), var(--color3));
+    background: linear-gradient(var(--color0), var(--color1), var(--color3));
     color: var(--color3);
     padding: 30px;
     border-radius: var(--general-radius);
