@@ -61,6 +61,6 @@
         width: 100%;
         height: 3px;
         align-self: center;
-        background: linear-gradient(to right, var(--color1), var(--color4), var(--color0));
+        background: linear-gradient(to right, var(--color1), var(--color0));
     }
 }
