@@ -30,7 +30,7 @@
     gap: var(--general-spacing);
     padding: 30px;
     border-radius: var(--general-radius);
-    border: 2px solid black;
+    border: 2px solid var(--color4);
     transition: transform .25s, color 1s, background-color 1s;
 }
 
