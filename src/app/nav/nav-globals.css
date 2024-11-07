@@ -16,8 +16,8 @@
 
 .unscrolled-nav {
   background-color: var(--color0);
-  background: linear-gradient(to right, var(--color2), var(--color4), var(--color0));
-  color: var(--color0);
+  background: linear-gradient(to right, var(--color1), var(--color1), var(--color0));
+  color: var(--color3);
   display: flex;
   position: -webkit-sticky;
   position: sticky;
@@ -30,13 +30,13 @@
   border-radius: var(--general-radius);
   transition: 0.1s ease;
   transform-origin: 25% 50%;
-  transform: rotate(0.8deg);
+  transform: rotate(1deg);
   box-shadow: var(--nav-shadow);
 }
 
 .scrolled-nav {
   background-color: var(--color1);
-  background: linear-gradient(to right, var(--color1), var(--color4), var(--color0));
+  background: linear-gradient(to right, var(--color0), var(--color1));
   color: var(--color3);
   display: flex;
   position: -webkit-sticky;

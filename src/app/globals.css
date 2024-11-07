@@ -6,7 +6,7 @@
   --color2: #D2691E;
   --color3: #faebd7;
   --color4: #8B0000;
-  --general-radius: 8px;
+  --general-radius: 4px;
   --general-spacing: 1rem;
   --general-padding: 30px;
   --general-shadow: -1px -1px 2px 2px rgb(20, 20, 20), 1px 1px 2px 2px black;
@@ -24,7 +24,7 @@
     --color2: #D2691E;
     --color3: #faebd7;
     --color4: #8B0000;
-    --general-radius: 8px;
+    --general-radius: 4px;
     --general-spacing: 1rem;
     --general-padding: 30px;
     --general-shadow: -1px -1px 2px 2px rgb(20, 20, 20), 1px 1px 2px 2px black;
