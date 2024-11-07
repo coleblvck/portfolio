@@ -96,6 +96,6 @@
 .horizontal-line {
     width: 80%;
     height: 2px;
-    color: var(--color1);
-    background-color: var(--color1);
+    color: var(--color0);
+    background-color: var(--color0);
 }

@@ -75,7 +75,7 @@ const projects = [
     },
     {
         title: "New Project",
-        content: <>You can <a className="project-link" href="mailto:hello@artatura.com" target="_blank">contact me here</a> so we can append a cool project to this page.</>,
+        content: <>You can <a className="project-link" href="mailto:cole@artatura.com" target="_blank">contact me here</a> so we can append a cool project to this page.</>,
         previewImage: "",
         stack: [],
         designDirection: "left",

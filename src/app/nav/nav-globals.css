@@ -11,12 +11,12 @@
   border-radius: var(--general-radius);
   transform-origin: 25% 50%;
   transform: rotate(0.8deg);
-  box-shadow: var(--general-box-shadow);
+  box-shadow: var(--nav-shadow);
 }
 
 .unscrolled-nav {
   background-color: var(--color0);
-  background: linear-gradient(to right, var(--color2), var(--color4));
+  background: linear-gradient(to right, var(--color2), var(--color4), var(--color0));
   color: var(--color0);
   display: flex;
   position: -webkit-sticky;
@@ -36,7 +36,7 @@
 
 .scrolled-nav {
   background-color: var(--color1);
-  background: linear-gradient(to right, var(--color1), var(--color0));
+  background: linear-gradient(to right, var(--color1), var(--color4), var(--color0));
   color: var(--color3);
   display: flex;
   position: -webkit-sticky;

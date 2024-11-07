@@ -20,7 +20,7 @@ export const socials = [
     {
         social: "Email",
         data: {
-            href: "mailto:hello@artatura.com",
+            href: "mailto:cole@artatura.com",
             iconClassName: "fa fa-envelope"
         }
     }
