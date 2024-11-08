@@ -47,7 +47,7 @@ const projects = [
     },
     {
         title: "Paragraph Web",
-        content: <><a className="project-link" href="https://www.myparagraph.space" target="_blank">Real-time texting</a> built with Python (Django), Graphql, Fetch-api, and styled with some vanilla HTML and CSS.</>,
+        content: <><a className="project-link" href="https://gitlab.com/writing-and-texting/Paragraph" target="_blank">Real-time texting</a> built with Python (Django), Graphql, Fetch-api, and styled with some vanilla HTML and CSS.</>,
         previewImage: "",
         stack: [stack.python, stack.django, stack.graphql, stack.dart, stack.javascript],
         designDirection: "left",
